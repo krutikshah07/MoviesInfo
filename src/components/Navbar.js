@@ -8,7 +8,7 @@ render(){
     return(
         <Navbar dark color="dark">
         <div className="container">
-          <NavbarBrand href="/">Movies Series</NavbarBrand>
+          <NavbarBrand href="/">Movies Information</NavbarBrand>
         </div>
       </Navbar>
      
