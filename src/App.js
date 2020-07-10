@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './App.css';
 import {HashRouter as Router ,Route} from 'react-router-dom'
@@ -9,8 +9,10 @@ import Footer from './components/Footer';
 import LandingComponent  from './components/LandingComponent'
 import store from './redux/store'
 import SingleMovie from './components/SingleMovie';
+import { render } from '@testing-library/react';
 
-function App() {
+class App extends Component {
+    render() {
   return (
   
      
@@ -27,6 +29,7 @@ function App() {
     
 
   );
+    }
 }
 
 export default App;

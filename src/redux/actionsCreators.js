@@ -5,8 +5,8 @@ export  const  searchMovie = text => dispatch=> {
     dispatch({
         type: SEARCH_MOVIE,
         payload: text
-    })    
-}
+    });    
+};
 
 
 export const fetchMovie = text => dispatch =>{
@@ -16,7 +16,7 @@ export const fetchMovie = text => dispatch =>{
             payload: response.data
         }))
         .catch(err => console.log(err))
-}
+};
 
 export const fetchMovies = id => dispatch =>{
     axios.get(`http://www.omdbapi.com/?apikey=304faecc&i=${id}`)
@@ -25,11 +25,11 @@ export const fetchMovies = id => dispatch =>{
             payload: response.data
         }))
         .catch(err => console.log(err))
-}
+};
 
 
 export const setLoading = ()=>{
     return{
         type: LOADING
-    }
-}
+    };
+};

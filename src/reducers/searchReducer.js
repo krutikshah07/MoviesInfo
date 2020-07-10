@@ -3,8 +3,8 @@ import {SEARCH_MOVIE, FETCH_MOVIE ,FETCH_MOVIES, LOADING} from '../redux/actions
 
 const initialStates ={
     text : '',
-    movies:[],
-    loading:false,
+    movies: [],
+    loading: false,
     movie: []
 }
 
