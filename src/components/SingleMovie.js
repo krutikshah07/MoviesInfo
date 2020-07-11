@@ -39,7 +39,7 @@ import Spinner from './Spinner'
                     <strong>Writer:</strong> {movie.Writer}
                   </li>
                   <li className="list-group-item">
-                    <strong>Actors:</strong> {movie.Writer}
+                    <strong>Actors:</strong> {movie.Actors}
                   </li>
                   <li className="list-group-item">
                     <strong>Awards Won:</strong> {movie.Awards}
