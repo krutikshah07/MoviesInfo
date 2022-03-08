@@ -8,7 +8,7 @@ function Footer() {
           <div className="footer p-3 mt-4 text-center bg-dark text-light">
             Developed By:
             <span className="text-warning font-weight-normal">
-              Krutik Shah
+              Krutik Shah ,Yashvi Shah,Shubham Upadhyay
             </span>
             , Using <i className="fab fa-react" /> React JS &amp; Redux JS
             integrated with external movies data API
